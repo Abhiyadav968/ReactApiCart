@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: sans-serif;
+}
+.heart {
+    display: none;
+}
+.img:hover .heart {
+    display: block;
+}
